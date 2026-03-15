@@ -180,4 +180,40 @@ h3 { margin-top: 0; }
     flex-direction: column;
     align-items: flex-start;
   }
+  
+}
+@media (max-width: 860px) {
+  .hero-content,
+  .grid.two,
+  .projects-grid,
+  .contact-list {
+    grid-template-columns: 1fr;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* PÉGALO AQUÍ ABAJO */
+.skill-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.skill-logos img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.skill-logos img:hover {
+  transform: scale(1.08);
 }
