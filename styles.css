@@ -182,38 +182,25 @@ h3 { margin-top: 0; }
   }
   
 }
-@media (max-width: 860px) {
-  .hero-content,
-  .grid.two,
-  .projects-grid,
-  .contact-list {
-    grid-template-columns: 1fr;
-  }
-
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-/* PÉGALO AQUÍ ABAJO */
 .skill-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 12px;
   justify-content: center;
   align-items: center;
   margin-top: 18px;
 }
 
 .skill-logos img {
-  width: 45px;
-  height: 45px;
+  width: 40px !important;
+  height: 40px !important;
   object-fit: contain;
   display: block;
-  transition: transform 0.2s ease;
+  max-width: 40px !important;
+  max-height: 40px !important;
 }
 
 .skill-logos img:hover {
   transform: scale(1.08);
+  transition: transform 0.2s ease;
 }
