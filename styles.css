@@ -193,12 +193,12 @@ h3 { margin-top: 0; }
 }
 
 .skill-logos img {
-  width: 55px !important;
-  height: 55px !important;
+  width: 70px !important;
+  height: 70px !important;
   object-fit: contain;
   display: block;
-  max-width: 55px !important;
-  max-height: 55px !important;
+  max-width: 70px !important;
+  max-height: 70px !important;
 }
 
 .skill-logos img:hover {
