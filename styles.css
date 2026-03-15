@@ -280,3 +280,7 @@ h3 { margin-top: 0; }
   color: var(--muted);
   margin-top: 0.7rem;
 }
+
+.project-card > a:first-child {
+  display: block;
+}
