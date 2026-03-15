@@ -14,7 +14,7 @@
       <div class="logo">Portfolio</div>
       <div class="nav-links">
         <a href="#sobre-mi">Sobre mí</a>
-        <a href="#proyectos">Proyectos</a>
+        <a href="#all-projects">Projects</a>
         <a href="#contacto">Contacto</a>
       </div>
     </nav>
@@ -88,40 +88,139 @@
       </div>
     </section>
 
-    <section id="proyectos" class="section alt-bg">
-      <div class="container">
-        <p class="section-tag">Proyectos</p>
-        <h2>Lo que quieres mostrar</h2>
-        <div class="projects-grid">
-          <article class="card project-card">
-            <h3>Proyecto 1</h3>
-            <p>
-              Describe este proyecto en 2 o 3 líneas. Explica qué hiciste,
-              para qué servía y cuál fue el resultado.
-            </p>
-            <a href="#">Ver proyecto</a>
-          </article>
 
-          <article class="card project-card">
-            <h3>Proyecto 2</h3>
-            <p>
-              Puede ser un trabajo freelance, un proyecto escolar, una práctica,
-              una marca personal o algo que hayas creado.
-            </p>
-            <a href="#">Ver proyecto</a>
-          </article>
+    <!--Proyectos-->
+    
+    <section id="Projects" class="section alt-bg">
+  <div class="container">
+    <p class="section-tag">Projects</p>
+    <h2>Some of the projects carried out</h2>
 
-          <article class="card project-card">
-            <h3>Proyecto 3</h3>
-            <p>
-              Si todavía no tienes proyectos, aquí puedes poner servicios,
-              certificaciones, logros o un caso de estudio.
-            </p>
-            <a href="#">Ver más</a>
-          </article>
-        </div>
-      </div>
-    </section>
+    <div class="projects-grid">
+      <article class="card project-card">
+        <img src="images/first-robot.jpg" alt="Robot for FIRST 2024" class="project-thumb">
+        <h3>Robot for FIRST 2024</h3>
+        <p>
+          Design and build a robot capable of collecting foam rings, launching them toward
+          a specific target, and hanging from a structure, operated by remote control
+          with system status monitoring.
+        </p>
+        <a href="#project-first">View project</a>
+      </article>
+
+      <article class="card project-card">
+        <img src="images/robotic-arm.jpg" alt="6 DOF Robotic Arm" class="project-thumb">
+        <h3>6 Degree of Freedom Robotic Arm</h3>
+        <p>
+          Design and construction of a robotic arm with six degrees of freedom controlled
+          by Arduino for precise motion manipulation.
+        </p>
+        <a href="#project-arm">View project</a>
+      </article>
+
+      <article class="card project-card">
+        <img src="images/project3.jpg" alt="Another project" class="project-thumb">
+        <h3>Project 3</h3>
+        <p>
+          Here you can place another highlighted project with a short description.
+        </p>
+        <a href="#project-3">View project</a>
+      </article>
+    </div>
+
+    <div class="all-projects-button">
+      <a href="#all-projects" class="btn primary">View all projects</a>
+    </div>
+  </div>
+</section>
+
+
+<!--SECCION ALL PROJECTS-->
+    
+<section id="all-projects" class="section">
+  <div class="container">
+    <p class="section-tag">All Projects</p>
+    <h2>All my projects</h2>
+
+    <div class="projects-grid">
+      <article class="card project-card">
+        <a href="#project-first">
+          <img src="images/first-robot.jpg" alt="Robot for FIRST 2024" class="project-thumb">
+        </a>
+        <h3>Robot for FIRST 2024</h3>
+        <p>Competition robot designed for ring collection, launching and hanging tasks.</p>
+      </article>
+
+      <article class="card project-card">
+        <a href="#project-arm">
+          <img src="images/robotic-arm.jpg" alt="6 DOF Robotic Arm" class="project-thumb">
+        </a>
+        <h3>6 Degree of Freedom Robotic Arm</h3>
+        <p>Robotic arm designed, manufactured and programmed using Arduino.</p>
+      </article>
+
+      <article class="card project-card">
+        <a href="#project-3">
+          <img src="images/project3.jpg" alt="Project 3" class="project-thumb">
+        </a>
+        <h3>Project 3</h3>
+        <p>Short description of another project.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <!--Proyecto brazo robotico-->
+<section id="project-arm" class="section alt-bg">
+  <div class="container">
+    <div class="card project-detail">
+      <img src="images/robotic-arm.jpg" alt="6 DOF Robotic Arm" class="project-detail-image">
+
+      <p class="section-tag">Project 5</p>
+      <h2>6 Degree of Freedom Robotic Arm</h2>
+
+      <h3>Project objective</h3>
+      <p>
+        Design and build a robotic arm with six degrees of freedom controlled by Arduino
+        for precise motion manipulation.
+      </p>
+
+      <h3>Technical description</h3>
+      <p>
+        A 6 DOF robotic arm was developed starting from a conceptual design evaluated
+        among several alternatives. The selected model was designed in CAD, manufactured
+        by 3D printing, and assembled with the necessary electronic components. The system
+        was programmed in Arduino to control each joint of the arm individually.
+      </p>
+
+      <h3>Technologies used</h3>
+      <ul class="cert-list">
+        <li>CAD design</li>
+        <li>3D printing</li>
+        <li>Arduino microcontroller</li>
+        <li>Electronic integration of actuators</li>
+        <li>Motion control programming</li>
+      </ul>
+
+      <h3>My specific role</h3>
+      <p>
+        Analysis and selection of the robotic arm model, mechanical assembly of the arm,
+        electronic integration, and system control programming.
+      </p>
+
+      <h3>Results obtained</h3>
+      <p>
+        A functional robotic arm was obtained capable of controlling its six degrees of
+        freedom through programming, visible on the Arduino serial monitor.
+      </p>
+
+      <a href="#all-projects" class="btn">Back to all projects</a>
+    </div>
+  </div>
+</section>
+
+
+    <!--Contacto-->
 
     <section id="contacto" class="section container">
       <p class="section-tag">Contacto</p>
