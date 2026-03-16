@@ -284,3 +284,10 @@ h3 { margin-top: 0; }
 .project-card > a:first-child {
   display: block;
 }
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
