@@ -254,10 +254,11 @@ h3 { margin-top: 0; }
 
 .project-detail-image {
   width: 100%;
-  max-height: 420px;
+  height: 320px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1.5rem;
+  display: block;
 }
 
 .project-dropdown {
