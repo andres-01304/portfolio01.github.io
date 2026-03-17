@@ -297,10 +297,11 @@ h3 { margin-top: 0; }
 }
 
 .all-projects-button {
-  margin-top: 1.5rem;
-  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  clear: both;
 }
