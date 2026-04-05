@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROS2 Mobile Robot Control</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Portfolio</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
+  <section class="section">
+    <div class="container">
+      <div class="card project-detail">
+        <img src="images/ros2-robot-banner.jpg" alt="ROS2 Mobile Robot" class="project-detail-image">
+
+        <p class="section-tag">Project</p>
+        <h2>ROS2 Mobile Robot Control and Obstacle Avoidance</h2>
+
+        <details class="project-dropdown" open>
+          <summary>Project objective</summary>
+          <p>
+            Develop and implement a control system for a mobile robot using ROS2, capable of operating in both simulation 
+            and real-world environments, and performing autonomous navigation with obstacle avoidance.
+          </p>
+        </details>
+
+        <details class="project-dropdown">
+          <summary>Technical description</summary>
+          <p>
+            A mobile robot control system was developed using the ROS2 framework, integrating simulation in Gazebo and 
+            deployment on a real robot platform. Bash scripts and Python-based interfaces were used to communicate with 
+            the robot, enabling motion control through velocity commands and real-time sensor data acquisition. Custom 
+            getter and setter functions were implemented to interact with robot parameters such as LiDAR scan data and 
+            odometry. A naive obstacle avoidance algorithm was programmed to allow the robot to navigate autonomously 
+            by reacting to surrounding obstacles. Additionally, a monitoring script was created to display robot 
+            statistics such as position, orientation, and distance traveled.
+          </p>
+        </details>
+
+        <details class="project-dropdown">
+          <summary>Technologies used</summary>
+          <ul class="cert-list">
+            <li>ROS2 (Robot Operating System)</li>
+            <li>Python</li>
+            <li>Bash scripting</li>
+            <li>Gazebo simulation</li>
+            <li>RViz visualization</li>
+            <li>LiDAR sensor data processing</li>
+            <li>Odometry and motion control</li>
+          </ul>
+        </details>
+
+        <details class="project-dropdown">
+          <summary>My specific role</summary>
+          <p>
+            Development of control scripts, implementation of robot functions for sensor and actuator interaction, 
+            programming of the obstacle avoidance algorithm, and testing in both simulation and real robot environments.
+          </p>
+        </details>
+
+        <details class="project-dropdown">
+          <summary>Results obtained</summary>
+          <p>
+            The robot successfully navigated autonomously in both simulated and real environments, avoiding obstacles 
+            using sensor data. Stable communication with the robot interface was achieved, and real-time monitoring 
+            of robot state and performance was demonstrated.
+          </p>
+        </details>
+
+        <div class="project-links">
+          <a href="projects.html" class="btn">Back to all projects</a>
+          <a href="index.html#contact" class="btn">Contact</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
